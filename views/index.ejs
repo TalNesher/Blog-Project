@@ -1,1 +1,24 @@
-<h1>hello</h1>
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="/styles/style.css"></head>
+<body>
+
+    <% if (posts.length === 0) { %>
+        <h1>No posts yet...</h1>
+    <% } %>
+    
+    <button id="addPostBtn">Add Post</button>
+        
+    <div id="popupContainer" class="popup-container">
+        <div id="popup" class="popup">
+            <textarea id="postContent" placeholder="Enter your post..."></textarea>
+            <button id="publishBtn">Publish</button>
+            </div>
+            </div>
+
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
